@@ -12,11 +12,12 @@
   },
   "scripts": {
     "prestart": "pnpm run typedoc",
-    "prebuild": "pnpm run typedoc",
+    "prebuild": "pnpm run typedoc && pnpm run tsc",
     "postinstall": "patch-package",
     "start": "rocket start",
     "build": "rocket build",
-    "typedoc": "typedoc --json docs/_data/api/api.json --entryPoints api.ts",
+    "tsc": "tsc --noEmit false",
+    "typedoc": "typedoc --json docs/_data/api/api.json --tsconfig tsconfig.typedoc.json --entryPoints api.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

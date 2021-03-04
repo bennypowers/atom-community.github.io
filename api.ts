@@ -1,6 +1,8 @@
 export * from 'atom-ide-base/types-packages/busy-signal';
 export * from 'atom-ide-base/types-packages/code-actions';
+export * from 'atom-ide-base/types-packages/code-format';
 export * from 'atom-ide-base/types-packages/code-highlight';
+export * from 'atom-ide-base/types-packages/console';
 export * from 'atom-ide-base/types-packages/datatip';
 export * from 'atom-ide-base/types-packages/definitions';
 export * from 'atom-ide-base/types-packages/find-references';
@@ -8,4 +10,7 @@ export * from 'atom-ide-base/types-packages/hyperclick';
 export * from 'atom-ide-base/types-packages/main';
 export * from 'atom-ide-base/types-packages/markdown-service';
 export * from 'atom-ide-base/types-packages/outline';
+export * from 'atom-ide-base/types-packages/refactor';
 export * from 'atom-ide-base/types-packages/sig-help';
+export * from 'atom-ide-base/types-packages/text-edit';
+export * from 'atom-ide-base/types-packages/uri';
